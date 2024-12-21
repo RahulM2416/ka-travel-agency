@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karnataka Travel Agency</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Karnataka Travel Agency</h1>
+    <p>Explore the beauty of Karnataka with us!</p>
+  </header>
+  
+  <section id="destinations">
+    <h2>Popular Destinations</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="/images/mysuru.jpg" alt="Mysore Palace">
+        <h3>Mysore Palace</h3>
+      </div>
+      <div class="card">
+        <img src="/images/coorg.jpg" alt="Coorg">
+        <h3>Coorg</h3>
+      </div>
+      <div class="card">
+        <img src="/images/hampi.jpg" alt="Hampi">
+        <h3>Hampi</h3>
+      </div>
+      <div class="card">
+        <img src="/images/belur.jpg" alt="Mysore Palace">
+        <h3>Halebeedu-Belur</h3>
+      </div>
+      <div class="card">
+        <img src="/images/ckm.jpg" alt="Mysore Palace">
+        <h3>Chikkamagaluru</h3>
+      </div>
+      <div class="card">
+        <img src="/images/dharmasthala.jpg" alt="Mysore Palace">
+        <h3>Dharmasthala</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Book Your Ticket</h2>
+    <form action="/book" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="destination">Destination:</label>
+      <select id="destination" name="destination" required>
+        <option value="Mysore">Mysore</option>
+        <option value="Coorg">Coorg</option>
+        <option value="Hampi">Hampi</option>
+        <option value="Halebeedu-Belur">Halebeedu-Belur</option>
+        <option value="Chikkamagaluru">Chikkamagaluru</option>
+        <option value="Dharmasthala">Dharmasthala</option>
+      </select>
+
+      <label for="date">Travel Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticket Confirmation</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+  <h1>Ticket Confirmation</h1></header>
+  <h1 style="text-align: center;"><strong>KARNATAKA TRAVEL AGENCY</strong></h1>
+  <p style="text-align: center;"><strong>#24 1st MAIN BTM LAYOUT</strong></p>
+  <p style="text-align: center;"><strong>2nd STAGE BENGALURU-560076</strong></p>
+  <hr>
+  <p style="font-size: larger;"><strong>Name:</strong> <%= name %> &#10084</p>
+  <p><strong>Destination:</strong> <%= destination %> &#9992</p>
+  <p><strong>Date:</strong> <%= date %> &#10030</p>
+  <p><strong>Status:</strong> Confirmed  &#9989</p>
+
+  <!-- Download Ticket Button -->
+     <a href="/download-ticket?name=<%= name %>&destination=<%= destination %>&date=<%= date %>" class="btn">
+    Download Ticket
+  </a>
+  <br>
+ 
+  <hr>
+  <p style="text-align: center;"><strong> &#10077 Thank you for choosing Our Travel Agency.! &#10078</strong></p>
+  <p style="text-align: center;"><strong>  &#10083 Have A Safe Journey..  &#10083</strong></p>
+  <p style="text-align: center;"><strong>  &#10094 Visit Again..!  &#10095 </strong></p>
+  <hr>
+  <script>
+    const d=new Date();
+    document.writeln("Date & Time :" + d.toLocaleString());
+  </script>
+</body>
+</html>
