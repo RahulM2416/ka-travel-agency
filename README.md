@@ -13,3 +13,21 @@ KA Travel Agency is a web-based platform that allows users to explore various to
 - **Templating Engine:** EJS
 - **Version Control:** Git & GitHub
 
+
+## 🚀 Features
+
+- Home page with welcome message and introduction
+- Beautiful UI showcasing tourist destinations
+- Information about Karnataka’s travel and cultural heritage
+- Contact or feedback section
+- Static and dynamic page rendering using EJS
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/RahulM2416/ka-travel-agency.git
+   cd ka-travel-agency
+   ```
+   
+
