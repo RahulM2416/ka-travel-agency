@@ -29,5 +29,18 @@ KA Travel Agency is a web-based platform that allows users to explore various to
    git clone https://github.com/RahulM2416/ka-travel-agency.git
    cd ka-travel-agency
    ```
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Run the Application:**
+   ```bash
+   node app.js
+   ```
+4. **View in browser:**
+   ```arduino
+   http://localhost:3000
+   ```
+   
    
 
